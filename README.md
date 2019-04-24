@@ -1,6 +1,6 @@
 # flutter_aj_qrscan
 
-A new Flutter plugin for qr scan.
+A new Flutter plugin.
 
 ## Getting Started
 

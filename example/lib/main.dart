@@ -8,7 +8,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
-  _MyAppState createState() => new _MyAppState();
+  _MyAppState createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
                       onPressed: scan, child: new Text("Scan")),
                   padding: const EdgeInsets.all(8.0),
                 ),
-                new Text("结果： $barcode"),
+                new Text(barcode),
               ],
             ),
           )),
@@ -43,8 +43,7 @@ class _MyAppState extends State<MyApp> {
 
   Future scan() async {
     try {
-      String barcode = await FlutterAjQrscan.qrScan();
-      //成功回调
+      String barcode = await FlutterAjQrscan.qrscan();
       setState(() => this.barcode = barcode);
     } on PlatformException catch (e) {
       if (e.code == FlutterAjQrscan.CameraAccessDenied) {
