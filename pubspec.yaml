@@ -1,8 +1,8 @@
 name: flutter_aj_qrscan
 description: A new Flutter plugin for qr scan.
 version: 0.0.1
-author:
-homepage:
+author: Anji-plus Kean <617293977@qq.com>
+homepage: https://github.com/Keanyuan/flutter_aj_qrscan
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
