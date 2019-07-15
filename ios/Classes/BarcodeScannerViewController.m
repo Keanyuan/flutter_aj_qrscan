@@ -54,7 +54,8 @@
     
     self.backLabelButton = [[UIButton alloc]init];
     self.backLabelButton.frame = CGRectMake(10, kStatusBarH+5, 30, 30);
-    [self.backLabelButton setTitle:@"X" forState:UIControlStateNormal];
+//    [self.backLabelButton setTitle:@"X" forState:UIControlStateNormal];
+    [self.backLabelButton setImage:[UIImage imageNamed:@"IQButtonBarArrowLeft"] forState:UIControlStateNormal];
     self.backLabelButton.titleLabel.font = [UIFont systemFontOfSize:20];
     [self.backLabelButton  setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.backLabelButton.layer setBorderColor:[UIColor whiteColor].CGColor];

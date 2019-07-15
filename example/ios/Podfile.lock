@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
-  flutter_aj_qrscan: a00befcdf9e4797adce5f76fef1dbf6c47ffef98
+  flutter_aj_qrscan: 61eef6753ad8236ba20c263ae60bacb8acbb5eff
   MTBBarcodeScanner: 2ce0cc045a584467e62a383fcd25f1b4adeb2779
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
